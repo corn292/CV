@@ -1,0 +1,173 @@
+/*------------------------------PAGE--------------------------*/
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    
+    border-radius: 5px;
+    width: 21cm;
+    
+}
+/*----------------------------PARAGRAPH-----------------------*/
+p {
+   font-size: 18px;
+   color: #2e404f;
+   margin-left: 2cm;
+   margin-right: 12cm;
+   text-align: center;
+}
+.name {
+    margin-left: 11cm;
+    position: absolute;
+    z-index: 5;
+    color: white;
+}
+.about_me {
+    margin-top: -1cm;
+    margin-left: 3.5cm;
+    margin-right: 13.7cm;
+    font-size: 0.7cm;
+    color: #3b5a71;
+}
+.introduction {
+    font-size: 18px;
+    color: #2e404f;
+    margin-left: 2.4cm;
+    margin-right: 11.5cm;
+
+}
+.section1 {
+   font-size: 18px;
+   color: #2e404f;
+   margin-left: 2.5cm;
+   margin-right: 12.5cm;
+   text-align: center;
+   border-style: solid;
+   border-radius: 50px;
+   border-color: #163853;
+}
+x {
+   font-size: 18px;
+   color: #2e404f;
+   margin-left: 2.8cm;
+   margin-right: 0cm;
+   text-align: center;
+}
+aside {
+    margin-top: -21.80cm;
+    margin-right: 15cm;
+    margin-left: 19.5cm;
+    z-index: 5;
+}
+.section {
+    font-size: 18px;
+    font-style:oblique;
+    color:#f2f2f5;
+    text-align: center;
+    background-color:  #2e404f;
+    border-radius: 15px;
+}
+.content {
+    font-size: 18px;
+    margin-right: -5cm;
+    color: #2e404f;
+}
+a {
+    text-decoration: none
+}
+/*----------------------------POSITION------------------------ */
+/*---------------------IMAGE---------------------*/            
+.ava{ 
+    border: 5px solid #2e404f;                                                              
+    margin-left: 2.5cm;
+    margin-top: -5cm;
+    border-radius: 50%;
+    width: 5.5cm;
+    height: 5.5cm;
+    position: absolute;
+}
+.ele {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+/* ------------------ROW & COLUMNS------------- */
+.row_ifo_ava {
+    background: white;
+    width: 21cm;
+    height: 1.8cm;
+    position: 0;
+}
+.row_ava{
+    border: 1px solid #2e404f;
+    transform: skew(160deg);
+    margin-left: 1cm;
+    background: #f2f2f3;
+    width: 9cm;
+	height: 4cm;
+    z-index: 4;
+}
+.row_behind_ava {
+    border: 1px solid #2e404f;
+    background: #2e404f;
+    width: 20.97cm;
+    height: 4cm;
+    z-index: 3;
+}
+.row_behind_row {
+    background: #7c8587;
+    width: 21cm;
+    height: 1cm;
+    z-index: 1;
+}
+.column {
+    margin-left: 1.5cm;
+    background: #f2f3f3;
+    width: 8cm;
+    height: 22.9cm;
+    z-index: 2;
+}
+/* --------------------PERCENT-------------------- */
+.Inference {
+    margin-right: 3cm;
+    width: 127.5px;
+    height: 7px;
+    background:  #2e404f; 
+    border-radius: 50px;
+    z-index: 2;
+}
+.Team {
+    margin-right: 3cm;
+    width: 124.5px;
+    height: 7px;
+    background:  #2e404f; 
+    border-radius: 50px;
+    z-index: 2;
+}
+
+.Plan {
+    margin-right: 3cm;
+    width: 115.5px;
+    height: 7px;
+    background:  #2e404f; 
+    border-radius: 50px;
+    z-index: 2;
+}
+.Pre {
+    margin-right: 3cm;
+    width: 105px;
+    height: 7px;
+    background:  #2e404f; 
+    border-radius: 50px;
+    z-index: 2;
+}
+.percent{
+    margin-top: -0.4cm;
+    margin-left:4cm;
+    margin-right:2cm;
+    width: 150px;
+    height: 7px;
+    background:  #7c8587; 
+    border-radius: 50px;
+    z-index: 1;
+}
